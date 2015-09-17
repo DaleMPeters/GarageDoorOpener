@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="pref_url"
+        android:title="@string/opener_script_url"
+        android:defaultValue="http://dalepi/index.php?trigger=1"
+        android:summary="This is the URL of the page used to open the door" />
+</PreferenceScreen>
